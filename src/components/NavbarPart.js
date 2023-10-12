@@ -1,3 +1,4 @@
+import logo from '../logo.png';
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,7 +12,7 @@ function NavbarPart() {
   return (
     <Navbar expand="lg">
     <Container>
-      <Navbar.Brand href="/">ACHI</Navbar.Brand>
+    <Navbar.Brand href="/"><img className="logo-achi" src={logo} alt="logo-achi"></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="d-flex flex-row m-auto">
