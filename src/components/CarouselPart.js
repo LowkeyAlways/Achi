@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function CarouselPart() {
   return (
     <div>
-        <Carousel data-bs-theme="dark" className="m-auto mt-5" style={{ width: '75%' }}>
+        <Carousel data-bs-theme="dark" className="m-auto mt-5" style={{ width: '65%' }}>
       <Carousel.Item>
         <Link onClick={() => {window.location.href="/cards"}}>
           <img style={{}}

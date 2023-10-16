@@ -16,8 +16,12 @@ function NavbarPart() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="d-flex flex-row m-auto">
-          <Nav.Link href="/qui-sommes-nous" className="mx-5 fs-5 text">Qui sommes-nous ?</Nav.Link>
-          <Nav.Link href="#link" className="mx-5 fs-5">Évènements</Nav.Link>
+          <NavDropdown title="Qui sommes-nous ?" id="basic-nav-dropdown" className="mx-5 fs-5" renderMenuOnMount={true}>
+            <NavDropdown.Item href="/qui-sommes-nous">Notre vision</NavDropdown.Item>
+            <NavDropdown.Item href="/qui-sommes-nous">Nos missions</NavDropdown.Item>
+            <NavDropdown.Item href="/qui-sommes-nous">Financement</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/cards" className="mx-5 fs-5">Évènements</Nav.Link>
           <NavDropdown title="Agir" id="basic-nav-dropdown" className="mx-5 fs-5" renderMenuOnMount={true}>
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

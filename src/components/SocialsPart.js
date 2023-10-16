@@ -9,7 +9,7 @@ import twitter from '../twitter.svg';
 function SocialsPart() {
   return (
     <div className="d-flex p-5 justify-content-evenly socials-part">
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/Actioncollectivehumanitaireinternational">
             <img className="socials" src={facebook} alt="facebook-logo"></img>
             <figcaption>Facebook</figcaption></a>
         <a href="https://www.instagram.com/">
