@@ -9,6 +9,7 @@ import FollowParts from './components/FollowParts';
 import Footer from './components/Footer';
 import Introduction from './pages/Introduction';
 import Articles from './pages/Articles';
+import Article from './pages/Actricle';
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/qui-sommes-nous">
           <Introduction/>
+        </Route>
+        <Route path="/article">
+          <Article/>
         </Route>
       </Switch>
       <footer>
