@@ -104,6 +104,7 @@ img:hover {
     padding: 1rem !important;
     border: none !important;
     background-color: #efefef !important;
+    box-shadow: 0 0 1rem #acacac;
   }
 
   .cards-part h1{
