@@ -4,6 +4,11 @@ import Carousel from 'react-bootstrap/Carousel';
 
 
 
+/**
+ * The function `CarouselPart` returns a carousel component with three slides, each containing an image
+ * and caption, and a link to navigate to another page when clicked.
+ * @returns The CarouselPart component is returning a JSX element that represents a carousel.
+ */
 function CarouselPart() {
   return (
     <div>

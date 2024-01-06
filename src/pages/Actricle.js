@@ -9,7 +9,7 @@ function Article() {
   return (
     <div>
       <Row className="title">
-          <h1>Qui sommes-nous ?</h1>
+          <h1>Exemple d'article</h1>
       </Row>
       <Row className="article">
           <Col xs={12} md={8}>
